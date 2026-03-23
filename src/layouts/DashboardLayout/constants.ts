@@ -1,0 +1,4 @@
+export const LAYOUT_CONSTANTS = {
+  SIDER_WIDTH: 220,
+  SIDER_COLLAPSED_WIDTH: 80,
+} as const;

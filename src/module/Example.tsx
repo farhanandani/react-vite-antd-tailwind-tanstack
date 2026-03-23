@@ -12,7 +12,7 @@ function Example() {
   if (error) return "An error has occurred: " + error.message;
 
   return (
-    <div className="flex flex-col gap-2 items-center justify-center h-screen w-full p-5">
+    <div className="flex flex-col gap-4 w-full max-w-md">
       <div className="flex flex-col md:flex-row gap-2 items-center justify-center w-full">
         <Button
           type="primary"
